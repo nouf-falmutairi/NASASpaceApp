@@ -1,0 +1,140 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Background Video */
+#background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+/* Overlay */
+#overlay {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+#logo {
+    height: 80px;
+    width: auto;
+}
+
+#title-slogan h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+#title-slogan p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* Search */
+#search-container {
+    margin-bottom: 20px;
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #155ab6;
+}
+
+/* Loading Banner */
+#loading-banner {
+    margin: 20px 0;
+    font-size: 1.2em;
+    display: none;
+    background: rgba(0,0,0,0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#loading-banner.visible {
+    display: block;
+}
+
+/* Study Cards */
+#results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+}
+
+.card .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card .description {
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
+
+.card .meta a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.card .meta a:hover {
+    text-decoration: underline;
+}
