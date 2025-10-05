@@ -1,5 +1,3 @@
-python
-pip
 nest_asyncio
 httpx
 spacy
