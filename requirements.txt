@@ -1,4 +1,5 @@
 setuptools
+pip
 nest_asyncio
 httpx
 spacy
