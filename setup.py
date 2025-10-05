@@ -10,6 +10,7 @@ setup(
         "httpx",
         "pandas",
         "spacy",
+		"scipy",
         "gensim"
     ],
     entry_points={
@@ -18,3 +19,4 @@ setup(
         ],
     },
 )
+
