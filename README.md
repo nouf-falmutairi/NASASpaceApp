@@ -20,7 +20,6 @@ The project aligns with the **2025 Space Apps Challenge theme: "Learn, Launch, L
 - **Similarity Ranking**: TF-IDF & LSI models identify the most semantically relevant studies.
 - **Interactive Web Interface**: Built with **Flask**, serving HTML, CSS, and JavaScript.
 - **Multi-Source Dataset Links**: Direct links to NASA OSDR, EBI PRIDE, NIH GEO, MG-RAST.
-- **CSV Export**: Saves fetched and tokenized data for offline analysis.
 - **Error Handling**: Graceful handling of missing queries or API errors.
 
 ---
