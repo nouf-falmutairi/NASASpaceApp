@@ -6,5 +6,5 @@ gensim
 numpy
 scipy
 jinja2
-
+python>=3.13
 
