@@ -1,3 +1,4 @@
+python
 nest_asyncio
 httpx
 spacy
@@ -5,5 +6,5 @@ pandas
 gensim
 numpy
 scipy
-python
+
 
