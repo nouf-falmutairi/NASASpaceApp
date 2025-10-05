@@ -40,7 +40,6 @@ async def query_osdr_api_with_keywords(query):
         data = json.loads(response.text)
     records = data["hits"]["hits"]
     df = pd.json_normalize(records, sep="_")
-    df.to_csv("outputnew.csv", index=True)
     return df
 
 def spacy_tokenizer(sentence):
@@ -63,7 +62,6 @@ def study_tokenizer(df):
     df["Study_Title_tokenized"] = df["_source_Study Title"].astype(str).map(lambda x: spacy_tokenizer(x))
     study_description = df['Study_Description_tokenized']
     study_title = df['Study_Title_tokenized']
-    df.to_csv("output_tokenized.csv", index=True)
     return study_description, study_title
 
 def dictionaries(study_description, study_title):
@@ -156,4 +154,5 @@ def script():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
