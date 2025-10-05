@@ -5,5 +5,5 @@ pandas
 gensim
 numpy
 scipy
-python>=3.12
+python
 
