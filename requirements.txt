@@ -1,5 +1,5 @@
-python==3.10
-pip==25.2
+python
+pip
 nest_asyncio
 httpx
 spacy
