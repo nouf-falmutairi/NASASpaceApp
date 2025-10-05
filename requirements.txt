@@ -6,7 +6,7 @@ spacy
 pandas
 numpy
 scipy
-gensim
+ gensim==4.1.2 
 Pyrebase4
 
 
