@@ -15,6 +15,8 @@ import json
 from urllib.parse import quote
 from gensim import corpora, models, similarities
 from flask import Flask, request, jsonify, render_template, send_from_directory
+import nest_asyncio
+nest_asyncio.apply()
 
 # ------------------------
 # INITIALIZE NLP
@@ -154,3 +156,4 @@ def script():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
