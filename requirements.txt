@@ -1,3 +1,4 @@
+setuptools
 nest_asyncio
 httpx
 spacy
