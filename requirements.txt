@@ -1,3 +1,6 @@
+pip
+setuptools
+wheel
 nest_asyncio
 httpx
 spacy
