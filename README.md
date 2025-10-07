@@ -91,10 +91,10 @@ python app.py
 ## ⚡ perview
 
 Website recording: 
-```https://drive.google.com/file/d/1PaLGwDmPtxo4ciEhl4l_kyPDGETm4xQW/view```
+**https://drive.google.com/file/d/1PaLGwDmPtxo4ciEhl4l_kyPDGETm4xQW/view**
 
 slideshow :
-```https://docs.google.com/presentation/d/1Vb9BE51q78c989uyVYyyjFZSMaxzUAaD/edit?slide=id.p1#slide=id.p1```
+**https://docs.google.com/presentation/d/1Vb9BE51q78c989uyVYyyjFZSMaxzUAaD/edit?slide=id.p1#slide=id.p1**
 
 ## 📄 License
 
