@@ -88,6 +88,10 @@ python app.py
 4. Open your browser at `http://127.0.0.1:5000/`
 
 ---
+## ⚡ perview
+
+Website recording: **https://drive.google.com/file/d/1PaLGwDmPtxo4ciEhl4l_kyPDGETm4xQW/view**
+slideshow :**https://docs.google.com/presentation/d/1Vb9BE51q78c989uyVYyyjFZSMaxzUAaD/edit?slide=id.p1#slide=id.p1**
 
 ## 📄 License
 
