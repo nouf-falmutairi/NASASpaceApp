@@ -1,13 +1,13 @@
 # NASASpaceApp
 
 **A Semantic Search Tool for NASA Datasets**  
-Built for the **2025 NASA Space Apps Challenge**, NASASpaceApp helps users discover the most relevant NASA research studies using natural language queries.
+Built for the **2025 NASA Space Apps Challenge**, Orbital helps users discover the most relevant NASA research studies using natural language queries.
 
 ---
 
 ## 🚀 Overview
 
-NASASpaceApp is a web application that leverages **NLP and machine learning** to perform semantic search over NASA datasets. Users can enter a query in plain English, and the app retrieves the **top 5 relevant studies** from multiple data sources including NASA OSDR, EBI PRIDE, NIH GEO, and MG-RAST.
+Orbital is a web application that leverages **NLP and machine learning** to perform semantic search over NASA datasets. Users can enter a query in plain English, and the app retrieves the **top 5 relevant studies** from multiple data sources including NASA OSDR, EBI PRIDE, NIH GEO, and MG-RAST.
 
 The project aligns with the **2025 Space Apps Challenge theme: "Learn, Launch, Lead"** by transforming open data into actionable insights and making NASA research more accessible.
 
